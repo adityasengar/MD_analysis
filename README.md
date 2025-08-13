@@ -1,6 +1,6 @@
 # Ligand Bond Order Correction Scripts
 
-This directory contains scripts for correcting the bond orders of ligand structures extracted from molecular dynamics (MD) simulations. MD simulations can sometimes produce PDB files where the chemical>
+This directory contains scripts for correcting the bond orders of ligand structures extracted from molecular dynamics (MD) simulations. MD simulations can sometimes produce PDB files where the chemical bond orders are not correctly assigned, especially for complex ligands. These scripts use RDKit to reassign correct bond orders based on a SMILES string template, while preserving the atomic coordinates from the MD snapshot.
 
 ## `correct_ligand_bond_orders_template.py`
 
